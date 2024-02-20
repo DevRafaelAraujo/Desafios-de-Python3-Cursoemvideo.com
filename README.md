@@ -16,3 +16,6 @@
 
    * Desafio105a - Minha solução.
    * Desafio105b - Solução Profª Guanabara.
+
+   1. Exercício Python 106: Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai aparecer. Quando o usuário digitar a palavra ‘FIM’, o programa se encerrará. Importante: use cores.
+   
