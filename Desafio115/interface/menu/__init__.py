@@ -29,7 +29,10 @@ def principal(opcoes):
             if op == 1:
                 arquivo.lerarquivo('cursoemvideo.txt')
             elif op == 2:
-                titulo('Opção 2')
+                titulo('NOVO CADASTRO')
+                nome = str(input('Nome: '))
+                idade = int(input('Idade: '))
+                arquivo.cadastrar('cursoemvideo.txt', nome, idade)
             elif op == 3:
                 titulo('Saindo do sistema... Até logo!')
                 break
